@@ -6,8 +6,7 @@
 
 ### Description
 
-This is a React.js/Next.js based landing page plug-n-play template, ideal for startups/companies/service providers wanting to showcase their vision in a single page sleek and modern landing page.
-
+This is a React.js/Next.js based landing page created to validate our idea of binary - bard.
 ### Features
 
 - 📱  Responsive design
@@ -19,33 +18,7 @@ This is a React.js/Next.js based landing page plug-n-play template, ideal for st
 
 - 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
 
-- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
-
-- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
-
 - 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
-
-Built-in feature from Next.js:
-
-- ☕ Minify HTML & CSS
-- 💨 Live reload
-- ✅ Cache busting
-
-### Make it your own
-
-#### 1. Clone repo
-
-```
-git clone https://github.com/issaafalkattan/react-landing-page-template-2021.git
-cd react-landing-page-template-2021
-yarn
-```
-
-Then, you can run locally in development mode with live reload:
-
-```
-yarn dev
-```
 
 Open <http://localhost:3000> with your favorite browser to see your project.
 
@@ -76,20 +49,11 @@ You can create an optimised production build with:
 yarn build-prod
 ```
 
-### Contributions
-
-Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
-
 ### License
 
-Licensed under the MIT License, Copyright © 2021
+Licensed under the MIT License, Copyright © 2024
   
 
 ## Liked this template? <a href="https://www.buymeacoffee.com/issaaf">Buy me a coffee ☕️</a>
 
 
-
-
----
-
-### Looking for v1? <a href="https://github.com/issaafalkattan/React-Landing-Page-Template">V1</a>
