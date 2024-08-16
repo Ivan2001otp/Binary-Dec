@@ -1,8 +1,5 @@
 # React.js landing page template v2
 
-## <a href="https://react-landing-page-template-2021.vercel.app/"> LIVE DEMO</a>
-
-<img src="public/assets/gifs/demo.gif" width="100%" height="auto" />
 
 ### Description
 
