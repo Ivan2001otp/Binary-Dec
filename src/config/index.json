@@ -1,43 +1,43 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "Bidasdfnary-Bard",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
-    {
-      "name": "Product",
-      "href": "product"
-    },
+    
     {
       "name": "Features",
       "href": "features"
     },
 
+      
     {
-      "name": "Pricing",
-      "href": "pricing"
+      "name":"FAQ",
+      "href":"faq"
     },
     {
-      "name": "About",
-      "href": "about"
+      "name":"Team",
+      "href":"team"
+    },
+    {
+      "name":"About Us",
+      "href":"about-us"
     }
+
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
+  
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
+    "title": "Binary",
+    "subtitle": "Bard",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "img": "/assets/images/happyTeam.jpeg",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
+      "text": "Get SignUp",
+      "href": "#pre-order"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:vivillonlabs@gmail.com?subject=Supporting Binary-Bard!"
     }
   },
   "product": {
@@ -71,14 +71,24 @@
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
+        "name":"Golang",
+        "description":"Golang is robust programming language widely used for backend engineering.",
+        "icon":"/assets/images/golang.png"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name":"Java",
+        "description":"Java is a robust programming OOP language widely used for backend engineering and design patterns.",
+        "icon":"/assets/images/java.png"
+      },
+      {
+        "name":"Node-JS",
+        "description":"Node JS is backend programming language used to build backend and APIs.",
+        "icon":"/assets/images/nodejs.png"
+      },
+      {
+        "name":"Ruby rails",
+        "description":"Ruby is a robust programming language widely used for backend engineering and design patterns.",
+        "icon":"/assets/images/ruby.svg"
       }
     ]
   },
@@ -145,9 +155,9 @@
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "github": "https://github.com",
+      "twitter": "https://twitter.com",
+      "linkedin": "https://www.linkedin.com/company/vivillon-labs/"
     }
   }
 }

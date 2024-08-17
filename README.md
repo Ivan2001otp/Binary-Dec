@@ -51,6 +51,6 @@ yarn build-prod
 Licensed under the MIT License, Copyright © 2024
   
 
-## Liked this template? <a href="https://www.buymeacoffee.com/issaaf">Buy me a coffee ☕️</a>
+
 
 

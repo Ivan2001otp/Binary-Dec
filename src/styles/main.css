@@ -26,3 +26,19 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+.pre-sign-up-card{
+  padding: 2rem;
+  width:450px;
+  background-color: #301a80;
+  border-radius: 10px;
+  margin: 0 auto;
+  transition: transform 0.5s ease-in-out;
+  position: relative;
+}
+
+.pre-sign-up-card:hover{
+  transform: scale(1.1);
+  background-color: #2a2b2b;
+}
+

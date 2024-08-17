@@ -4,9 +4,11 @@ import config from '../config/index.json';
 
 const About = () => {
   const { company, about } = config;
+  console.log(about);
   const { logo, name: companyName } = company;
   const { socialMedia, sections } = about;
-
+  console.log(sections)
+  
   return (
     <div
       id="about"
@@ -16,17 +18,18 @@ const About = () => {
         <div>
           <img src={logo} alt={companyName} className="w-16 h-16" />
         </div>
-        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">
-          {sections.map((section, index) => (
-            <a
-              key={`${section.name}-${index}`}
-              href={section.href}
-              className="hover:text-primary text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
-            >
-              {section.name}
-            </a>
-          ))}
+
+        <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 mb-4 h-12">
+        <a    href="#pre-order"
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full   text-background bg-primary hover:bg-border hover:text-primary 
+                transition duration-300 ease-in-out
+                md:py-4 md:text-lg md:px-10`}
+              >
+              Early Access
+              </a>
         </div>
+
+
         <div className="flex items-center gap-x-8 mt-6 h-8">
           <a
             aria-label="github"
@@ -77,11 +80,13 @@ const About = () => {
             </svg>
           </a>
         </div>
+
+        
         <div className="flex items-center mt-6">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
-            &copy; {new Date().getFullYear()} designed by{' '}
-            <a href="https://github.com/issaafalkattan" rel="nofollow">
-              Issaaf Kattan
+            &copy; {new Date().getFullYear()} Created by{' '}
+            <a className='font-bold' href="https://www.linkedin.com/company/vivillon-labs/" rel="nofollow">
+              Vivillon Labs
             </a>
           </p>
         </div>
