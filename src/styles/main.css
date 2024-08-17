@@ -29,7 +29,7 @@ a:hover {
 
 .pre-sign-up-card{
   padding: 2rem;
-  width:450px;
+  width:350px;
   background-color: #301a80;
   border-radius: 10px;
   margin: 0 auto;
@@ -41,4 +41,7 @@ a:hover {
   transform: scale(1.1);
   background-color: #2a2b2b;
 }
+
+
+
 

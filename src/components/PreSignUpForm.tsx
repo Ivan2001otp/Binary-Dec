@@ -2,7 +2,10 @@ import React from 'react'
 
 const PreSignUpForm = () => {
   return (
-    <div  className='pre-sign-up-card'>
+    <div 
+    //  className='pre-sign-up-card'
+    className='w-96 bg-purple-900 rounded-xl mx-auto p-8 relative transition-transform duration-500 hover:scale-110 hover:bg-gray-800'
+    >
           <div>
             <p className='text-center text-3xl font-medium text-white mb-3'>Pre-Sign Up</p>
           </div>

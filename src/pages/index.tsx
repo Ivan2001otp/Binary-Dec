@@ -56,7 +56,11 @@ const App = () => {
             </div>
 
 
-          <div className='flex flex-wrap items-center justify-evenly text-black '>
+          <div 
+          
+          className='lg:flex lg:flex-wrap lg:items-center lg:justify-evenly text-black '
+          
+          >
             {/* form for preSignUp */}
 
             <div>

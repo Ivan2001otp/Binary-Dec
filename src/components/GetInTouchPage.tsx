@@ -38,6 +38,7 @@ const GetInTouchPage = () => {
                 <div className='flex justify-center mt-2 '>
                   <a
                     href='https://www.linkedin.com/in/tejasmondeeri/'
+                    id='linkedInImg'
                     className='no-underline transition-transform duration-400 hover:translate-y-3'
                   >
                     <img width={60} height={60} src='/assets/images/linkedin.png'/>
@@ -60,7 +61,7 @@ const GetInTouchPage = () => {
                 <div className='flex justify-center mt-2'>
                   <a
                     className='no-underline transition-transform duration-400 hover:translate-y-3'
-
+                    id="linkedInImg"
                     href='https://www.linkedin.com/in/immanuel-dsouza-b32505210/'
                   >
                     <img width={60} height={60} src='/assets/images/linkedin.png'/>

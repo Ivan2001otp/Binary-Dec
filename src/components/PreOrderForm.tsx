@@ -2,15 +2,20 @@ import React from 'react'
 
 const PreOrderForm = () => {
   return (
-    <div  className='pre-sign-up-card'>
+    <div  
+    // className='pre-sign-up-card'
+    className='w-96 bg-purple-900 rounded-xl mx-auto p-8 relative transition-transform duration-500 hover:scale-110 hover:bg-gray-800'
+    >
           <div>
             <p className='text-center text-3xl font-medium text-white mb-3'>Buy Early</p>
           </div>
           <form className="space-y-4">
+            
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-white hover:text-yellow-300 ">Name</label>
               <input type="text" placeholder='David Ian' id="name" min={3} maxLength={100} name="name" required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm p-2" />
             </div>
+
             <div>
               <label htmlFor="email"  className="block text-sm font-medium text-white hover:text-yellow-300">Email</label>
               <input type="email" placeholder='david123@mypro.com' id="email" name="email" required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm p-2" />
