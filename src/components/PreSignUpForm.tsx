@@ -16,6 +16,8 @@ interface PreSignUpFormState{
 
 const PreSignUpForm = () => {
 
+  const PRE_SIGNUP_URL:string = 'http://localhost:8080/presignup'
+
   const [formData,setFormData] = useState<PreSignUpFormState>({
     name:"",
     email:"",
@@ -98,11 +100,10 @@ const PreSignUpForm = () => {
       return;
     }
 
-    // alert(`${nameSubmit} +  ${emailSubmit} + ${feedbackSubmit}`);
   
   
     try{
-      const response = await fetch('http://localhost:8080/presignup',{
+      const response = await fetch(PRE_SIGNUP_URL,{
         method:'POST',
         headers:{
           'Content-Type':'application/json',
@@ -118,7 +119,7 @@ const PreSignUpForm = () => {
 
       if(!response.ok){
         
-        alert(`User-${nameSubmit} already exists`);
+        alert(`User-${nameSubmit} already exists!`);
         return;
 
       }
