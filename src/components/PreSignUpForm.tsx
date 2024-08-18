@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { ToastContainer,toast } from 'react-toastify';
 
 interface PreSignUpFormState{
   name:string;
@@ -27,6 +28,8 @@ const PreSignUpForm = () => {
   });
 
 
+  //function to display toast message
+ 
 
   //Functions used for validating input...
   const validateName=(value:string)=>{
@@ -74,7 +77,7 @@ const PreSignUpForm = () => {
 
  
 
-  const handleSubmit = (event:React.FormEvent<HTMLFormElement>)=>{
+  const handleSubmit = async(event:React.FormEvent<HTMLFormElement>)=>{
     
     event.preventDefault();
     console.log(formData);
@@ -95,7 +98,49 @@ const PreSignUpForm = () => {
       return;
     }
 
-    alert(`${nameSubmit} +  ${emailSubmit} + ${feedbackSubmit}`);
+    // alert(`${nameSubmit} +  ${emailSubmit} + ${feedbackSubmit}`);
+  
+  
+    try{
+      const response = await fetch('http://localhost:8080/presignup',{
+        method:'POST',
+        headers:{
+          'Content-Type':'application/json',
+        },
+        body:JSON.stringify(
+          {
+            "name":nameSubmit,
+            "email":emailSubmit,
+            "company":feedbackSubmit.length==0 ? '' : feedbackSubmit
+          })
+      });
+
+
+      if(!response.ok){
+        
+        alert(`User-${nameSubmit} already exists`);
+        return;
+
+      }
+
+      const data = response.json()
+      data
+      .then(
+        (value)=>alert(value)
+      )
+      .catch(
+        (error)=>alert(error)
+      );
+
+
+    }catch(error){
+      alert(error)
+
+    }finally{
+
+      //empty the fields when the entry is done
+      setFormData({name:'',email:'',feedback:'',errors:{}});
+    }
   };
 
   return (
@@ -177,9 +222,14 @@ const PreSignUpForm = () => {
               className="px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-yellow-700 hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 hover:text-black">
                 Submit
               </button>
+
             </div>
+           
 
           </form>
+
+              
+
 
     </div>
 )
