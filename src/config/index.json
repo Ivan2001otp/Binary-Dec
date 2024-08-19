@@ -1,0 +1,157 @@
+{
+    "company": {
+        "name": "BinaryDec",
+        "logo": "/assets/images/logo.png"
+    },
+    "navigation": [
+        {
+            "name": "Features",
+            "href": "features"
+        },
+        {
+            "name": "FAQ",
+            "href": "faq"
+        },
+        {
+            "name": "Team",
+            "href": "team"
+        },
+        {
+            "name": "About Us",
+            "href": "about-us"
+        }
+    ],
+    "mainHero": {
+        "title": "Transform Your Hiring Process",
+        "subtitle": "With Real-World Development Tests",
+        "description": "Unlock a more effective hiring process with tests that reflect the actual work your developers will do. Whether you're looking for a frontend expert or a backend pro, our platform allows you to evaluate candidates on the skills that matter most for the role. Say goodbye to irrelevant challenges and hello to practical, results-driven assessments. Sign up now to lead the way in smarter hiring",
+        "primaryAction": {
+            "text": "Get SignUp",
+            "href": "#pre-order"
+        },
+        "secondaryAction": {
+            "text": "Email us",
+            "href": "mailto:vivillonlabs@gmail.com?subject=Supporting Binary-Bard!"
+        },
+        "img": "/assets/images/happyTeam.jpeg"
+    },
+    "product": {
+        "title": "React landing page 2021",
+        "items": [
+            {
+                "title": "A plug n play template",
+                "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
+                "img": "/assets/images/product1.jpg"
+            },
+            {
+                "title": "Make it your own!",
+                "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+                "img": "/assets/images/product2.jpg"
+            }
+        ]
+    },
+    "features": {
+        "title": "Latest & greatest ",
+        "subtitle": "All the best technologies out there!",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+        "items": [
+            {
+                "name": "React.js",
+                "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+                "icon": "/assets/images/react.png"
+            },
+            {
+                "name": "Tailwind",
+                "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+                "icon": "/assets/images/tailwindcss.svg"
+            },
+            {
+                "name": "Golang",
+                "description": "Golang is robust programming language widely used for backend engineering.",
+                "icon": "/assets/images/golang.png"
+            },
+            {
+                "name": "Java",
+                "description": "Java is a robust programming OOP language widely used for backend engineering and design patterns.",
+                "icon": "/assets/images/java.png"
+            },
+            {
+                "name": "Node-JS",
+                "description": "Node JS is backend programming language used to build backend and APIs.",
+                "icon": "/assets/images/nodejs.png"
+            },
+            {
+                "name": "Ruby rails",
+                "description": "Ruby is a robust programming language widely used for backend engineering and design patterns.",
+                "icon": "/assets/images/ruby.svg"
+            }
+        ]
+    },
+    "pricing": {
+        "title": "Pricing",
+        "items": [
+            {
+                "name": "Free",
+                "price": "$0",
+                "priceDetails": "for one user",
+                "features": [
+                    "1 user",
+                    "Basic Support",
+                    "1 GB of storage",
+                    "Email support"
+                ]
+            },
+            {
+                "name": "Pro",
+                "price": "$15",
+                "priceDetails": "per user",
+                "features": [
+                    "5 users",
+                    "Priority Support",
+                    "10 GB of storage",
+                    "Phone and Email support"
+                ]
+            },
+            {
+                "name": "Enterprise",
+                "price": "$29",
+                "priceDetails": "per user",
+                "features": [
+                    "50 users",
+                    "24/7 Support",
+                    "100 GB of storage",
+                    "Phone and Email support"
+                ]
+            }
+        ]
+    },
+    "about": {
+        "sections": [
+            {
+                "name": "Something",
+                "href": "#",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            },
+            {
+                "name": "Something",
+                "href": "#",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            },
+            {
+                "name": "Something",
+                "href": "#",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            },
+            {
+                "name": "Something",
+                "href": "#",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            }
+        ],
+        "socialMedia": {
+            "github": "https://github.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://www.linkedin.com/company/vivillon-labs/"
+        }
+    }
+}
